@@ -1,0 +1,91 @@
+/* This is The Media Queries Section */
+
+@media (min-width:1100px) {
+    footer .social-icons {
+        margin-left: 42.5%;
+    }
+}
+@media (min-width:1000px){
+    .home {
+        padding:50px 200px;
+    }
+    .btn {
+        margin: 10px 0px 20px 80%;
+    }
+    footer .social-icons {
+        padding-left: 60px;
+    }
+}
+@media(max-width:500px){
+    .home-nav {
+        grid-template-areas:
+        "logo logo logo"
+        "nav nav nav";
+    }
+    .home {
+        padding:0px 10px;
+    }
+    .btn {
+        margin: 10px 0px 20px 170px;
+    }
+    .container-banner h1 {
+        padding-top: 150px;
+        font-size: 35px;
+        border-bottom: 2px solid #fff;
+        display: inline-block;
+        font-weight: 900;
+        color:#fff;
+        line-height: 70px;
+        text-transform: uppercase;
+    }
+    .container-banner p{
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: capitalize;
+        line-height: 30px;
+    }
+    .logo {
+        margin-left: 150px;
+    }
+    .nav {
+        margin-left: 30px;
+    }
+    .post {
+        height: 500px;
+    }
+    .post h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .post h5 {
+        font-size: 18px;
+        font-weight: 500;
+        color:#fff;
+        line-height: 50px;
+        text-transform: capitalize;
+    }
+    .post p {
+        font-size:12px;
+        font-weight: 200;
+    }
+    .post-img figure{
+        width: 100%;
+    }
+    .post-img figcaption {
+        padding-left: 0px;
+        font-style:italic;
+    }
+    .contact {
+        height: 400px;
+    }
+    .contact-container form {
+        padding: 0px 10px;
+    }
+    .contact-container .contact-btn {
+        margin-bottom: 25px;
+    }
+}
